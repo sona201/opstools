@@ -29,3 +29,6 @@
 ## 项目方案
 - 后端python3.8, django4.2
 - 前端 vue3, antd
+
+- page分页
+- response结构化
