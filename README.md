@@ -32,3 +32,10 @@
 
 - page分页
 - response结构化
+- jwt 永久token创建
+
+pip3 freeze pip freeze > requirements.txt
+
+目前只安装了
+- Django==4.2
+- djangorestframework==3.14.0
