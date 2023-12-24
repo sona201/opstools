@@ -24,7 +24,7 @@ class BaseModel(models.Model):
     """
     基础继承模型
     """
-    shuhe_status = models.BooleanField(default=True, blank=True)
+    opstools_status = models.BooleanField(default=True, blank=True)
     # status = models.BooleanField(default=True, blank=True)
     create_time = models.DateTimeField(auto_now_add=True, blank=True, verbose_name="创建时间")
     modify_time = models.DateTimeField(auto_now=True, verbose_name="修改时间")
