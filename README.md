@@ -58,6 +58,7 @@
 
 ## 项目方案
 - 后端python3.8, django4.2
+- 后端借鉴 [drf_admin](https://github.com/TianPangJi/drf_admin)
 - 前端 vue3, antd, ts(其实ts我不会，但上了vue3都是强推ts的，那就跟进下) [vue-vben-admin](https://github.com/vbenjs/vue-vben-admin)
 - 前端 admin 的模板地址 [vben-admin-thin-next](https://github.com/vbenjs/vben-admin-thin-next)
 - 前端开发文档 [vvbin doc](https://doc.vvbin.cn/guide/)
@@ -71,7 +72,10 @@ pip3 freeze pip freeze > requirements.txt
 - Django==4.2
 - djangorestframework==3.14.0
 
-"""
+[djangorestframework doc](https://www.django-rest-framework.org/tutorial/quickstart/)
+
+
+```
 ├── celery_task                # Celery异步任务
 ├── docs                       # 文档
 ├── opstools                  # 项目主文件
@@ -98,4 +102,4 @@ pip3 freeze pip freeze > requirements.txt
 ├── manage.py                  # 项目入口、启动文件
 ├── README.md                  # README
 └── requirements.txt           # requirements文件
-"""
+```
