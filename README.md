@@ -103,3 +103,7 @@ pip3 freeze pip freeze > requirements.txt
 ├── README.md                  # README
 └── requirements.txt           # requirements文件
 ```
+
+优化功能
+django debug tool https://github.com/jazzband/django-debug-toolbar
+https://pypi.org/project/django-sql-explorer/
