@@ -107,3 +107,5 @@ pip3 freeze pip freeze > requirements.txt
 优化功能
 django debug tool https://github.com/jazzband/django-debug-toolbar
 https://pypi.org/project/django-sql-explorer/
+
+coreapi 与 https://pypi.org/project/django-coreapi/ 对比优劣
